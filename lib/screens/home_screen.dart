@@ -121,7 +121,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => const WeatherScreen(),
+                          builder: (context) => Screen(),
                         ),
                       );
                     },
@@ -133,7 +133,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                 children: [
                   const Text(
                     'Gatepass/Leave',
-                    style:textStyle,
+                    style: textStyle,
                   ),
                   CustomButton(
                     text: 'Get',

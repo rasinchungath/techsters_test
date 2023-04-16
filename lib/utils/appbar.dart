@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 
-AppBar appBar(
-    {
-    required String title,
-    required VoidCallback onPressed}) {
+AppBar appBar({required String title, required VoidCallback onPressed}) {
   return AppBar(
     leading: IconButton(
       onPressed: onPressed,
